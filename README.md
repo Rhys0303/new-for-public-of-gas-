@@ -54,8 +54,8 @@
 │         ▼
 └──► [決策 4: 無危害?] ─────(是: 無火且正常)───► 🍃 [正常無危害] ➔ 維持綠色 SAFE 燈號
 
+<img width="436" height="601" alt="圖片" src="https://github.com/user-attachments/assets/3cb7fca9-4a5d-43da-a3d4-6c5e380857fb" />
 
-<img width="433" height="607" alt="圖片" src="https://github.com/user-attachments/assets/67c3e9c8-004d-4ece-820b-91858e372cc8" />
 
 
 
