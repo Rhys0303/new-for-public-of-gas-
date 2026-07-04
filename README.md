@@ -15,7 +15,8 @@
 * **AI 推理算力優化：** 採用輕量化 YOLO 模型，並加入 2.0 秒影像降頻保護機制，節省 75% 算力開銷。
 * **跨平台響應式控制台：** 基於 Bootstrap 5 框架，手機/網頁雙端免 Port Forwarding 低時延同步遙測。
 
-<img width="1250" height="698" alt="圖片" src="https://github.com/user-attachments/assets/59504bdf-eec9-4796-bc46-6bedddc17638" />
+<img width="996" height="560" alt="圖片" src="https://github.com/user-attachments/assets/beca8123-f92f-4ed9-8041-907f020677ba" />
+
 
 
 ---
@@ -54,7 +55,7 @@
 └──► [決策 4: 無危害?] ─────(是: 無火且正常)───► 🍃 [正常無危害] ➔ 維持綠色 SAFE 燈號
 
 
-<img width="437" height="597" alt="圖片" src="https://github.com/user-attachments/assets/47a8ea0f-95c1-47ed-8863-848cd4591a71" />
+<img width="433" height="607" alt="圖片" src="https://github.com/user-attachments/assets/67c3e9c8-004d-4ece-820b-91858e372cc8" />
 
 
 
@@ -62,7 +63,8 @@
 
 #系統架構圖
 --------------------------------------------------------------------------------------------------------------------------------
-<img width="521" height="582" alt="圖片" src="https://github.com/user-attachments/assets/b44b58e9-8c99-4692-80b0-e9fc0f1bc69b" />
+<img width="523" height="591" alt="圖片" src="https://github.com/user-attachments/assets/41b7f5e1-7eea-41c9-b594-2b196734d0ae" />
+
 
 ---
 
@@ -71,16 +73,20 @@
 | 測試情境 | 前端介面狀態 | YOLO 辨識結果 | 決策響應與燈號 |
 | :--- | :---: | :---: | :---: |
 | **1. 人火並存料理** | GAS LEVEL: 355 | `human: 0.77`, `fire: 0.48` | 🟢 **SAFE** (智慧識別烹飪空間) |
-<img width="848" height="468" alt="圖片" src="https://github.com/user-attachments/assets/e40083b9-8a49-4272-a88b-fd86a71a8a8b" />
+<img width="604" height="334" alt="圖片" src="https://github.com/user-attachments/assets/149fb867-a62b-4d5b-a782-fd69c0e92899" />
+
 
 | **2. 無人看管空燒** | GAS LEVEL: 368 | `fire: 0.39`, `None` | 🔴 **ALARM** (毫秒級觸發實體蜂鳴器) |
-<img width="852" height="461" alt="圖片" src="https://github.com/user-attachments/assets/c07315da-11c6-4b0a-8cac-14b9cc017901" />
+<img width="604" height="334" alt="圖片" src="https://github.com/user-attachments/assets/a8475f38-1527-4b5a-aaf6-e5a4cbd01cbf" />
+
 
 | **3. 有人但瓦斯外洩**| GAS LEVEL: 778 | `human: 0.80` | 🔴 **ALARM** (氣體危機最高優先級阻斷) |
-<img width="841" height="453" alt="圖片" src="https://github.com/user-attachments/assets/142ef33c-3986-4041-8e19-342ac8d86f04" />
+<img width="594" height="326" alt="圖片" src="https://github.com/user-attachments/assets/76219a3e-6205-4bbe-983a-458bd26557a8" />
+
 
 | **4. 極端瓦斯外洩** | GAS LEVEL: 977 | `None` | 🔴 **ALARM** (雙重危害最高防護響應) |
-<img width="842" height="459" alt="圖片" src="https://github.com/user-attachments/assets/df7defc7-dedb-4f8e-bbf0-85d088c4abb4" />
+<img width="594" height="322" alt="圖片" src="https://github.com/user-attachments/assets/93958b2b-8448-4bc1-99b0-9603978f23e8" />
+
 
 
 
