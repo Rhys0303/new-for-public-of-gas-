@@ -1,0 +1,27 @@
+# Python caches
+.venv/
+__pycache__
+*.pyc
+*.pyo
+
+# Vscode caches
+.vscode/
+.idea/
+
+# AI models
+*.pt
+*.onnx
+
+# OS Files
+.Ds_Store
+Thumbs.db
+
+# Arduino build
+build/
+
+# API keys
+.env
+
+# Logs and database files
+*.log
+*.db

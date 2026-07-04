@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  ai-brain:
+    build: .
+    container_name: yolo-server
+    ipc: host
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+    restart: unless-stopped
