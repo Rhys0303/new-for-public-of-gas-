@@ -62,7 +62,7 @@
 
 | 技術項目| 系統採用的核心規格 |
 | :--- | :--- |
-| 核心模型  | `YOLOv26n` (輕量化邊緣端推論引擎) |
+| 核心模型  | `YOLO26n` (輕量化邊緣端推論引擎) |
 | 資料集  | `Fire Smoke and Human Detector` (複合廚房安防資料集) |
 | 影像資料量  | `1,500+ Images` *3 Classes Balanced (Fire, Smoke, Person) / Total ~1,500+ Images* |
 | 訓練週期 | `100 Epochs` (模型收斂與泛化能力之最佳平衡) |
